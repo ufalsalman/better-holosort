@@ -1,4 +1,4 @@
-dataSetVersion = "2024-01-19"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2026-05-19"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -14,6 +14,7 @@ dataSet[dataSetVersion].options = [
       { name: "hololive Indonesia", key: "id" },
       { name: "hololive English", key: "en" },
       { name: "hololive DEV_IS", key: "devis" },
+      { name: "mekPark", key: "mek" },
       { name: "HOLOSTARS", key: "st" },
       { name: "HOLOSTARS English", key: "sten" },
     ]
@@ -134,7 +135,8 @@ dataSet[dataSetVersion].characterData = [
     img: "aqua.webp",
     opts: {
       branch: ["jp"],
-      girl: true
+      girl: true,
+      retired: true
     }
   },
   {
@@ -142,7 +144,8 @@ dataSet[dataSetVersion].characterData = [
     img: "shion.webp",
     opts: {
       branch: ["jp"],
-      girl: true
+      girl: true,
+      retired: true
     }
   },
   {
@@ -239,7 +242,8 @@ dataSet[dataSetVersion].characterData = [
     img: "kanata.webp",
     opts: {
       branch: ["jp"],
-      girl: true
+      girl: true,
+      retired: true
     }
   },
   {
@@ -345,7 +349,8 @@ dataSet[dataSetVersion].characterData = [
     img: "chloe.webp",
     opts: {
       branch: ["jp"],
-      girl: true
+      girl: true,
+      retired: true
     }
   },
   {
@@ -473,7 +478,8 @@ dataSet[dataSetVersion].characterData = [
     img: "gura.webp",
     opts: {
       branch: ["en"],
-      girl: true
+      girl: true,
+      retired: true
     }
   },
   {
@@ -481,7 +487,8 @@ dataSet[dataSetVersion].characterData = [
     img: "ame.webp",
     opts: {
       branch: ["en"],
-      girl: true
+      girl: true,
+      retired: true
     }
   },
   {
@@ -497,7 +504,8 @@ dataSet[dataSetVersion].characterData = [
     img: "fauna.webp",
     opts: {
       branch: ["en"],
-      girl: true
+      girl: true,
+      retired: true
     }
   },
   {
@@ -522,7 +530,8 @@ dataSet[dataSetVersion].characterData = [
     img: "mumei.webp",
     opts: {
       branch: ["en"],
-      girl: true
+      girl: true,
+      retired: true
     }
   },
   {
@@ -829,7 +838,8 @@ dataSet[dataSetVersion].characterData = [
     img: "ao.webp",
     opts: {
       branch: ["devis"],
-      girl: true
+      girl: true,
+      retired: true
     }
   },
   {
@@ -895,5 +905,101 @@ dataSet[dataSetVersion].characterData = [
       branch: ["sten"],
       boy: true
     }
-  }
+  },
+  {
+    name: "Elizabeth Rose Bloodflame",
+    img: "elizabeth.png",
+    opts: {
+      branch: ["en"],
+      girl: true
+    }
+  },
+  {
+    name: "Gigi Murin",
+    img: "gigi.png",
+    opts: {
+      branch: ["en"],
+      girl: true
+    }
+  },
+  {
+    name: "Cecilia Immergreen",
+    img: "cecilia.png",
+    opts: {
+      branch: ["en"],
+      girl: true
+    }
+  },
+  {
+    name: "Raora Panthera",
+    img: "raora.png",
+    opts: {
+      branch: ["en"],
+      girl: true
+    }
+  },
+  {
+    name: "Isaki Riona",
+    img: "riona.webp",
+    opts: {
+      branch: ["devis"],
+      girl: true
+    }
+  },
+  {
+    name: "Koganei Niko",
+    img: "niko.webp",
+    opts: {
+      branch: ["devis"],
+      girl: true
+    }
+  },
+  {
+    name: "Mizumiya Su",
+    img: "su.webp",
+    opts: {
+      branch: ["devis"],
+      girl: true
+    }
+  },
+  {
+    name: "Rindo Chihaya",
+    img: "chihaya.webp",
+    opts: {
+      branch: ["devis"],
+      girl: true
+    }
+  },
+  {
+    name: "Kikirara Vivi",
+    img: "vivi.webp",
+    opts: {
+      branch: ["devis"],
+      girl: true
+    }
+  },
+  {
+    name: "Yoinagi Neon",
+    img: "neon.webp",
+    opts: {
+      branch: ["mek"],
+      girl: true
+    }
+  },
+  {
+    name: "Reimei Mira",
+    img: "mira.webp",
+    opts: {
+      branch: ["mek"],
+      girl: true
+    }
+  },
+  {
+    name: "Kiyosumi Lyra",
+    img: "lyra.webp",
+    opts: {
+      branch: ["mek"],
+      girl: true
+    }
+  },
 ]
